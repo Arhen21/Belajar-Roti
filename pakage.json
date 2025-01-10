@@ -1,0 +1,21 @@
+{
+  "name": "landing-page-roti",
+  "version": "1.0.0",
+  "description": "Landing page untuk usaha roti lezat",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server"
+  },
+  "keywords": [
+    "landing page",
+    "roti",
+    "usaha",
+    "html",
+    "css"
+  ],
+  "author": "Hendri",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

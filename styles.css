@@ -1,0 +1,160 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Header Section */
+header {
+  background: linear-gradient(to right, #ff8c00, #ff6347);
+  color: white;
+  padding: 100px 0;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #ff6347;
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+.cta-button:hover {
+  background-color: #ff4500;
+}
+
+/* Produk Section */
+.produk-section {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.produk-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.produk-section p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.produk-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.produk-item {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+}
+
+.produk-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.produk-item h3 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.produk-item p {
+  font-size: 1.1em;
+  color: #555;
+}
+
+/* Testimonial Section */
+.testimonial-section {
+  background-color: #ffebcd;
+  padding: 50px 0;
+}
+
+.testimonial-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.testimonial-item {
+  width: 45%;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.testimonial-item p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.testimonial-item span {
+  font-size: 1em;
+  color: #666;
+  font-style: italic;
+}
+
+/* Call to Action Section */
+.cta-section {
+  background-color: #ff6347;
+  color: white;
+  padding: 50px 0;
+}
+
+.cta-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.cta-section p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+/* Footer Section */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 1em;
+}
