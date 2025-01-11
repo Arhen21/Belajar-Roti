@@ -13,7 +13,7 @@
     "html",
     "css"
   ],
-  "author": "Hendri",
+  "author": "Nama Anda",
   "license": "MIT",
   "devDependencies": {
     "live-server": "^1.2.1"
