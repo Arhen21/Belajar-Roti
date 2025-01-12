@@ -4,7 +4,7 @@
   "description": "Landing page untuk usaha roti lezat",
   "main": "index.html",
   "scripts": {
-    "start": "^1.2.1"
+    "start": "node server.js"
   },
   "keywords": [
     "landing page",
