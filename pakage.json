@@ -4,7 +4,8 @@
   "description": "Landing page untuk usaha roti lezat",
   "main": "index.html",
   "scripts": {
-    "start": "live-server"
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "landing page",
